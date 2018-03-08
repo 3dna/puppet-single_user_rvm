@@ -76,7 +76,7 @@ define single_user_rvm::install (
   $user         = $title,
   $version      = 'stable',
   $rvmrc        = '',
-  $home         = '',
+  $home         = undef,
   $auto_upgrade = false,
 ) {
 
