@@ -78,7 +78,7 @@
 define single_user_rvm::install_ruby (
   $ruby_string      = $title,
   $user             = 'rvm',
-  $verify_downloads = '',
+  $verify_downloads = undef,
   $force_binary     = false,
   $disable_binary   = false,
   $movable          = false,
